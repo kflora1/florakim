@@ -1,0 +1,11 @@
+.hb-header {
+  position: relative;
+  background: red;
+}
+
+.header-wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+  background-color: aquamarine;
+}
+/*# sourceMappingURL=style.css.map */
