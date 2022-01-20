@@ -3,6 +3,10 @@ body {
   margin: 0 0 0;
 }
 
+.fixed-header {
+  position: fixed;
+}
+
 .hb-header {
   position: relative;
   background: #2ec4b6;
