@@ -63,7 +63,7 @@ li a:hover:not(.active) {
 .section-style {
   padding-left: 30%;
   max-width: 1024px;
-  position: absolute;
+  position: relative;
   width: 529px;
   height: 255px;
   font-family: "mplus2-light";
