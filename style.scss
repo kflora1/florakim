@@ -63,7 +63,7 @@ body{
   
 li a {
     display: inline-block;
-    color: #000;
+    color: rgb(255, 255, 255);
     padding: 7px 16px;
     text-decoration: none;
 }
@@ -75,7 +75,7 @@ li a.active {
 
   
 li a:hover:not(.active) {
-    background-color: #2ec4b6;
+    background-color: #009386;
     border-radius: 20px;
     color: white;
 }
