@@ -94,6 +94,8 @@ li a:hover:not(.active) {
 }
 
 .para {
+  padding: 24px 24px 24px;
   font-family: "kumbhsans-reg";
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */
