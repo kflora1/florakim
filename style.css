@@ -4,18 +4,11 @@ body {
 }
 
 .fixed-header {
-  position: fixed;
-}
-
-.hb-header {
-  position: relative;
-  background: #2ec4b6;
-}
-
-.header-wrapper {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  margin: 0 auto;
+  position: fixed;
+  background-color: #2ec4b6;
+  z-index: 5;
 }
 
 @font-face {
@@ -34,7 +27,7 @@ body {
 }
 
 .web-title {
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-size: 48px;
   font-weight: normal;
@@ -51,20 +44,24 @@ body {
   font-family: "kumbhsans-reg";
 }
 
+.main-page {
+  padding-top: 12rem;
+}
+
 li a {
   display: inline-block;
-  color: white;
+  color: black;
   padding: 7px 16px;
   text-decoration: none;
 }
 
 li a.active {
-  background-color: #2ec4b6;
+  background-color: #45dacb;
   color: white;
 }
 
 li a:hover:not(.active) {
-  background-color: #009386;
+  background-color: #57c9bf;
   border-radius: 20px;
   color: white;
 }
@@ -74,14 +71,14 @@ li a:hover:not(.active) {
   font-weight: 490;
   letter-spacing: 0.03rem;
   word-spacing: 0.7rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .section-style {
   padding-left: 22%;
   max-width: 1024px;
-  position: relative;
+  position: static;
   width: 600px;
   font-family: "mplus2-light";
   font-style: normal;

@@ -4,20 +4,16 @@ body{
 }
 
 .fixed-header{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
     position: fixed;
-}
-
-.hb-header {
-    position: relative;
-    background: #2ec4b6;
-
+    background-color: #2ec4b6;
+    z-index: 5;
 }
 
 .header-wrapper {
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    margin: 0 auto;
-    //max-width: 1024px;
+
+    
 }
 
 @font-face {
@@ -34,9 +30,8 @@ body{
 }
 
 .web-title{
-    color: #ffffff;
+    color: #000000;
     text-align: center;
-    //margin: 2%;
     font-size: 48px;
     font-weight: normal;
     font-family: "kumbhsans-reg";
@@ -46,10 +41,17 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
 }
+.nav-options{
+
+}
 
 .main-headers{
     padding-top: 75px;
     font-family: "kumbhsans-reg";
+}
+
+.main-page{
+    padding-top: 12rem;
 }
 // a:link {
 //     color:aliceblue;
@@ -68,20 +70,20 @@ body{
   
 li a {
     display: inline-block;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 7px 16px;
     text-decoration: none;
 }
   
 li a.active {
-    background-color: #2ec4b6;
+    background-color: #45dacb;
     color: white;
 }
 
   
 li a:hover:not(.active) {
-    background-color: #009386;
-    border-radius: 20px;
+    background-color: #57c9bf;
+    border-radius: 20px; //rounded corners
     color: white;
 }
  
@@ -90,14 +92,14 @@ li a:hover:not(.active) {
     font-weight: 490;
     letter-spacing: 0.03rem;
     word-spacing: 0.7rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .section-style{
     padding-left: 22%;
     max-width: 1024px;
-    position: relative;
+    position: static;
     width: 600px;
 
     font-family: "mplus2-light";
