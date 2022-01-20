@@ -94,8 +94,7 @@ li a:hover:not(.active) {
     padding-left: 22%;
     max-width: 1024px;
     position: relative;
-    width: 529px;
-    height: 255px;
+    width: 600px;
 
     font-family: "mplus2-light";
     font-style: normal;
@@ -107,6 +106,7 @@ li a:hover:not(.active) {
     display: flex;
     align-items: center;
 }
+
 .para{
     padding-top: 24px;
     padding-left: 24px;
@@ -114,4 +114,8 @@ li a:hover:not(.active) {
 
     font-family: "kumbhsans-reg";
     font-size: 18px;
+}
+
+.illust{
+    padding: 20px 20px 20px;
 }

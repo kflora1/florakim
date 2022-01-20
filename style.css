@@ -78,8 +78,7 @@ li a:hover:not(.active) {
   padding-left: 22%;
   max-width: 1024px;
   position: relative;
-  width: 529px;
-  height: 255px;
+  width: 600px;
   font-family: "mplus2-light";
   font-style: normal;
   font-weight: 400;
@@ -100,5 +99,9 @@ li a:hover:not(.active) {
   padding-bottom: 24px;
   font-family: "kumbhsans-reg";
   font-size: 18px;
+}
+
+.illust {
+  padding: 20px 20px 20px;
 }
 /*# sourceMappingURL=style.css.map */
