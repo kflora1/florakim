@@ -43,6 +43,7 @@ body {
 }
 
 .main-headers {
+  padding-top: 75px;
   font-family: "kumbhsans-reg";
 }
 
@@ -94,7 +95,9 @@ li a:hover:not(.active) {
 }
 
 .para {
-  padding: 24px 24px 24px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
   font-family: "kumbhsans-reg";
   font-size: 18px;
 }
