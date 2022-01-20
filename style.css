@@ -45,7 +45,7 @@ body {
 }
 
 .main-page {
-  padding-top: 12rem;
+  padding-top: 0 auto;
 }
 
 li a {
