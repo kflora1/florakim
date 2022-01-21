@@ -96,6 +96,10 @@ li a:hover:not(.active) {
   padding-bottom: 1rem;
 }
 
+.nav-link {
+  text-decoration: none;
+}
+
 .section-style {
   padding-left: 22%;
   padding-top: 5%;
