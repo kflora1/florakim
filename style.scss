@@ -1,8 +1,8 @@
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0 0 0 px;
-    background-color: #57c9bf;
-    padding: 0 0 0;
+    margin:auto;
+    background-color: #f1f1f1;
+    //padding: 0 0 0;
 }
 
 .header {
@@ -10,15 +10,16 @@ body{
 	bottom: 0;
 	z-index: 1;
 	width: 100%;
-	background-color: #f1f1f1;
 }
 
 .fixed-header{
+    margin-top: auto;
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     position: fixed;
-    background-color: rgb(245, 228, 171);
+    background-color: #57c9bf;
     z-index: 5;
+    width: 100%;
     overflow: auto;
 
 }
@@ -65,7 +66,7 @@ body{
 }
 
 .main-page{
-    padding-top: 0 auto;
+    padding-top: 10rem;
 }
 // a:link {
 //     color:aliceblue;
