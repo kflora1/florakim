@@ -9,6 +9,19 @@ body{
     //padding: 0 0 0;
 }
 
+@font-face {
+    font-family: "mplus2-light";
+    src: url(./fonts/MPLUS2-Light.ttf); 
+}
+@font-face {
+    font-family: "mplus2-thin";
+    src: url(./fonts/MPLUS2-Thin.ttf);
+}
+@font-face {
+    font-family: "kumbhsans-reg";
+    src: url(./fonts/KumbhSans-Regular.ttf);
+}
+
 .header {
 	position: fixed;
 	bottom: 0;
@@ -28,23 +41,7 @@ body{
 
 }
 
-.header-wrapper {
-    margin-top: 0;
-    
-}
 
-@font-face {
-    font-family: "mplus2-light";
-    src: url(./fonts/MPLUS2-Light.ttf); 
-}
-@font-face {
-    font-family: "mplus2-thin";
-    src: url(./fonts/MPLUS2-Thin.ttf);
-}
-@font-face {
-    font-family: "kumbhsans-reg";
-    src: url(./fonts/KumbhSans-Regular.ttf);
-}
 
 .web-title{
     color: #000000;
@@ -72,20 +69,6 @@ body{
 .main-page{
     padding-top: 10rem;
 }
-// a:link {
-//     color:aliceblue;
-//     text-decoration: none;
-// }
-
-// ul {
-//     list-style-type: none;
-//     padding: 0 auto;
-//     width: 10%;
-//     background-color: white;
-//     position: fixed;
-//     height: 100%;
-//     overflow: auto;
-// }
   
 li a {
     display: inline-block;

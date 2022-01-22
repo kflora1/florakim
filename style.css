@@ -8,6 +8,21 @@ body {
   background-color: #f1f1f1;
 }
 
+@font-face {
+  font-family: "mplus2-light";
+  src: url(./fonts/MPLUS2-Light.ttf);
+}
+
+@font-face {
+  font-family: "mplus2-thin";
+  src: url(./fonts/MPLUS2-Thin.ttf);
+}
+
+@font-face {
+  font-family: "kumbhsans-reg";
+  src: url(./fonts/KumbhSans-Regular.ttf);
+}
+
 .header {
   position: fixed;
   bottom: 0;
@@ -24,25 +39,6 @@ body {
   z-index: 5;
   width: 100%;
   overflow: auto;
-}
-
-.header-wrapper {
-  margin-top: 0;
-}
-
-@font-face {
-  font-family: "mplus2-light";
-  src: url(./fonts/MPLUS2-Light.ttf);
-}
-
-@font-face {
-  font-family: "mplus2-thin";
-  src: url(./fonts/MPLUS2-Thin.ttf);
-}
-
-@font-face {
-  font-family: "kumbhsans-reg";
-  src: url(./fonts/KumbhSans-Regular.ttf);
 }
 
 .web-title {
