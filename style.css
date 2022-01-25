@@ -14,6 +14,11 @@ body {
 }
 
 @font-face {
+  font-family: "KumbhSans-Bold";
+  src: url(./fonts/KumbhSans-ExtraBold.ttf);
+}
+
+@font-face {
   font-family: "mplus2-thin";
   src: url(./fonts/MPLUS2-Thin.ttf);
 }
@@ -35,7 +40,7 @@ body {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   position: fixed;
-  background-color: #57c9bf;
+  background-color: #30D3C4;
   z-index: 5;
   width: 100%;
   overflow: auto;
@@ -73,12 +78,13 @@ li a {
 }
 
 li a.active {
-  background-color: #45dacb;
+  background-color: #4caa9d;
   color: white;
 }
 
 li a:hover:not(.active) {
-  background-color: #57c9bf;
+  background-color: #00768b9a;
+  background-blend-mode: color-dodge;
   border-radius: 20px;
   color: white;
 }
