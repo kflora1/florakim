@@ -110,7 +110,9 @@ li a:hover:not(.active) {
 .section-style {
   padding-left: 22%;
   padding-top: 5%;
-  max-width: 1024px;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
   position: static;
   width: 600px;
   font-family: "mplus2-light";
@@ -122,6 +124,10 @@ li a:hover:not(.active) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -135,7 +141,31 @@ li a:hover:not(.active) {
   font-size: 18px;
 }
 
+.project-desc-right {
+  float: right;
+}
+
+.project-desc-left {
+  padding: 20px 20px 20px;
+  float: left;
+}
+
+.desc-right-padding {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
 .illust {
   padding: 20px 20px 20px;
+}
+
+.btn-style {
+  padding: 1rem 1rem;
+}
+
+.btn-style a:hover:not(.active) {
+  border-color: #30D3C4;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=style.css.map */
