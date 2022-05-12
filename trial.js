@@ -18,3 +18,6 @@ function scrollFunction() {
     document.getElementById("webTitle").style.fontSize = "48px";
   }
 }
+
+//console.log(document.getElementById("aboutMe"));
+document.getElementById("aboutMe").innerHTML="About Me"; 
