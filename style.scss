@@ -1,168 +1,166 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin:auto;
-    background-color: #f1f1f1;
-    //padding: 0 0 0;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: auto;
+  background-color: #f2f7f5;
+  //padding: 0 0 0;
 }
 
 @font-face {
-    font-family: "mplus2-light";
-    src: url(./fonts/MPLUS2-Light.ttf); 
+  font-family: "mplus2-light";
+  src: url(./fonts/MPLUS2-Light.ttf);
 }
 @font-face {
-    font-family: "KumbhSans-Med";
-    src: url(./fonts/KumbhSans-Medium.ttf); 
+  font-family: "KumbhSans-Med";
+  src: url(./fonts/KumbhSans-Medium.ttf);
 }
 @font-face {
-    font-family: "KumbhSans-Bold";
-    src: url(./fonts/KumbhSans-Bold.ttf); 
+  font-family: "KumbhSans-Bold";
+  src: url(./fonts/KumbhSans-Bold.ttf);
 }
 @font-face {
-    font-family: "mplus2-thin";
-    src: url(./fonts/MPLUS2-Thin.ttf);
+  font-family: "mplus2-thin";
+  src: url(./fonts/MPLUS2-Thin.ttf);
 }
 @font-face {
-    font-family: "kumbhsans-reg";
-    src: url(./fonts/KumbhSans-Regular.ttf);
+  font-family: "kumbhsans-reg";
+  src: url(./fonts/KumbhSans-Regular.ttf);
 }
 
 .header {
-	position: fixed;
-	bottom: 0;
-	z-index: 1;
-	width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
 }
 
-.fixed-header{
-    margin-top: auto;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    position: fixed;
-    background-color: #30D3C4 ; //#57c9bf rgba(255,203,136,1)
-    z-index: 5;
-    width: 100%;
-    overflow: auto;
-
+.fixed-header {
+  margin-top: auto;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  position: fixed;
+  background-color: #30d3c4; //#57c9bf rgba(255,203,136,1)
+  z-index: 5;
+  width: 100%;
+  overflow: auto;
 }
 
-
-
-.web-title{
-    color: #000000;
-    text-align: center;
-    font-size: 48px;
-    font-weight: normal;
-    font-family: "kumbhsans-reg";
-    margin-top: 0 auto;
-    margin-bottom: 5px;
+.web-title {
+  color: #000000;
+  text-align: center;
+  font-size: 48px;
+  font-weight: normal;
+  font-family: "kumbhsans-reg";
+  margin-top: 0 auto;
+  margin-bottom: 5px;
 }
 
-.nav-bar{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
+.nav-bar {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
 }
 // .nav-options{
 
 // }
 
-.main-headers{
-    padding-top: 75px;
-    font-family: "kumbhsans-reg";
+.main-headers {
+  padding-top: 75px;
+  font-family: "kumbhsans-reg";
 }
 
-.main-page{
-    padding-top: 10rem;
+.main-page {
+  padding-top: 10rem;
 }
-  
+
 li a {
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    padding: 7px 16px;
-    text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  padding: 7px 16px;
+  text-decoration: none;
 }
-  
+
 li a.active {
-    background-color: #4caa9d;
-    color: white;
+  background-color: #4caa9d;
+  color: white;
 }
 
-  
 li a:hover:not(.active) {
-    background-color: #00768b9a;
-    background-blend-mode: color-dodge;
-    border-radius: 20px; //rounded corners
-    color: white;
-}
- 
-.nav-item{
-    display: inline;
-    font-weight: 490;
-    letter-spacing: 0.03rem;
-    word-spacing: 0.7rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.nav-link{
-    text-decoration: none;
+  background-color: #00768b9a;
+  background-blend-mode: color-dodge;
+  border-radius: 20px; //rounded corners
+  color: white;
 }
 
-.section-style{
-    padding-left: 22%;
-    padding-top: 5%;
-    max-width: max-content;
-    position: static;
-    width: 600px;
-
-    font-family: "mplus2-light";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 33px;
-    /* or 122% */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.nav-item {
+  display: inline;
+  font-weight: 490;
+  letter-spacing: 0.03rem;
+  word-spacing: 0.7rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.nav-link {
+  text-decoration: none;
 }
 
-.para{
-    padding-top: 24px;
-    padding-left: 24px;
-    padding-bottom: 24px;
+.section-style {
+  padding-left: 22%;
+  padding-top: 5%;
+  max-width: max-content;
+  position: static;
+  width: 600px;
 
-    font-family: "kumbhsans-reg";
-    font-size: 18px;
-}
+  font-family: "mplus2-light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  /* or 122% */
 
-.project-desc-right{
-    //display: inline-block;
-    //width: 60%;
-    float: right;
-}
-.project-desc-left{
-    //display: inline-block;
-    padding: 20px 20px 20px;
-    //width: 40%;
-    float: left;
-}
-.desc-right-padding{
-    flex: 0 0 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.illust{
-    padding: 20px 20px 20px;
+.para {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+
+  font-family: "kumbhsans-reg";
+  font-size: 18px;
 }
-.btn-style{
-    padding: 1rem 1rem;
+
+.project-desc-right {
+  //display: inline-block;
+  //width: 60%;
+  float: right;
 }
-.btn-style a:hover:not(.active){
-    //background-color: #30D3C4;
-    //background-blend-mode: color-dodge;
-    //padding: 1rem 1rem 1rem;
-    border-color: #30D3C4;
-    border-radius: 25px; //rounded corners
+.project-desc-left {
+  //display: inline-block;
+  padding: 20px 20px 20px;
+  //width: 40%;
+  float: left;
+}
+.desc-right-padding {
+  flex: 0 0 50%;
+}
+
+.illust {
+  padding: 20px 20px 20px;
+}
+.btn-style {
+  padding: 1rem 1rem;
+}
+.btn-style a:hover:not(.active) {
+  //background-color: #30D3C4;
+  //background-blend-mode: color-dodge;
+  //padding: 1rem 1rem 1rem;
+  border-color: #30d3c4;
+  border-radius: 25px; //rounded corners
 }
